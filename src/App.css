@@ -1,0 +1,274 @@
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.column-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.task:hover {
+  background-color: #f0f0f0;
+}
+
+.task:active {
+  cursor: grabbing;
+}
+
+/* ... Existing styling ... */
+
+.navbar {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* ... Existing styling ... */
+
+.navbar {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* ... Rest of the styling ... */
+/* ... Existing styling ... */
+
+.grouping-dropdown,
+.sorting-dropdown {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* ... Rest of the styling ... */
+/* ... Existing styling ... */
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.grouping-dropdown,
+.sorting-dropdown {
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* ... Rest of the styling ... */
+/* ... Existing styling ... */
+
+/* ... Existing styling ... */
+
+.controls-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* ... Rest of the styling ... */
+
+/* ... Existing styling ... */
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+}
+
+/* ... Rest of the styling ... */
+
+/* ... Rest of the styling ... */
+
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.kanban-navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar-content {
+  text-align: center;
+}
+
+.control-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+/* Adjustments for the priority dropdown */
+.priority-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column-title {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.task strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.task p {
+  margin: 0;
+}
+
+/* Add this CSS to your App.css file */
+.control-container {
+  display: flex;
+  flex-direction: column; /* Display the dropdowns in a column */
+  align-items: flex-start; /* Align items to the left */
+}
+
+.dropdown {
+  margin-bottom: 10px; /* Add some space below each dropdown */
+}
+
+
+
